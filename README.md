@@ -14,9 +14,12 @@ Also included all necessary files in the repo for easy setup after downloading /
 
 ---
 
-If you want to write your presentation in a seperate file, replace the following in `index.html`:  
+If you want to write your presentation in a seperate file, replace the following in `index.html`:
+
 `<script>var slideshow = remark.create();</script>`
+
 with:
+
 `<script>var slideshow = remark.create({sourceUrl: 'title-of-file.md'});</script>`
 
 Now you can also delete the `<textarea>` to shorten the HTML code even more.
