@@ -1,0 +1,22 @@
+@font-face{
+  font-family: 'Droid Serif';
+  src: url('DroidSerif.ttf');
+}
+
+@font-face{
+  font-family: 'Yanone Kaffeesatz';
+  src: url('YanoneKaffeesatz.otf');
+}
+
+@font-face{
+  font-family: 'Ubuntu Mono';
+  src: url('UbuntuMono.ttf');
+}
+
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
