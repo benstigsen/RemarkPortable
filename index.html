@@ -7,7 +7,6 @@
   </head>
 
   <body>
-    
     <!-- Presentation Begin -->
     <textarea id="source">
 
@@ -40,7 +39,13 @@ class: left
 console.log("It's markdown. How much simpler can it get?")
 ```
 
-Created from the project **[Remark](https://github.com/gnab/remark)** 
+MathJax is also supported!
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+<br/>
+<br/>
+<br/>
+**[RemarkPortable](https://github.com/BenTearzz/RemarkPortable)**, created from the project **[Remark](https://github.com/gnab/remark)** 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -49,7 +54,13 @@ Created from the project **[Remark](https://github.com/gnab/remark)**
     </textarea>
     <!-- Presentation End -->
 
+    <!-- Load Plugins -->
+    <script src="./plugins/MathJax/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
+    <!-- Load Plugins -->
+
+    <!-- Build Slide -->
     <script src="remark.min.js"></script>
     <script>var slideshow = remark.create(/*{sourceUrl: 'presentation-file.md'}*/);</script>
+    <!-- Build Slide -->
   </body>
 </html>
