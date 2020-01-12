@@ -8,7 +8,7 @@
 
   <body>
     <!-- Presentation Begin -->
-    <textarea id="source">
+    <textarea id="source" style="visibility: hidden;">
 
 class: center, middle
 
@@ -41,6 +41,8 @@ console.log("It's markdown. How much simpler can it get?")
 
 MathJax is also supported!
 
+\\( \bar{x} \\) or \\( \hat{x} \\)
+<br/>
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 <br/>
 <br/>
@@ -54,13 +56,16 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
     </textarea>
     <!-- Presentation End -->
 
+    <button type="button" id="load" onclick="loadContent()">Load Content</button>
+    <input type="file" id="file" onchange="loadFile(event)">
+
     <!-- Load Plugins -->
-    <script src="./plugins/MathJax/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
+    <script src="./assets/plugins/MathJax/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
     <!-- Load Plugins -->
 
     <!-- Build Slide -->
-    <script src="remark.min.js"></script>
-    <script>var slideshow = remark.create(/*{sourceUrl: 'presentation-file.md'}*/);</script>
+    <script src="./assets/scripts/remark.min.js"></script>
+    <script src="./main.js"></script>
     <!-- Build Slide -->
   </body>
 </html>
