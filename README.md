@@ -9,20 +9,12 @@ Also included all necessary files in the repo for easy setup after downloading /
 ### Getting Started
 
 1. Download or clone this repo (you can also use the **[releases](https://github.com/BenTearzz/RemarkPortable/releases)** page).
-2. Write your markdown in the `<textarea>`, in `index.html`
-3. That's it... now you just open `index.html` in a browser and it should work.
+2. Write your markdown in the `<textarea>` in `index.html` or in a local file.
+3. That's it... now you just open `index.html` in a browser, click `load` and it should work.
 
 ---
 
-If you want to write your presentation in a seperate file, replace the following in `index.html`:
-
-`<script>var slideshow = remark.create();</script>`
-
-with:
-
-`<script>var slideshow = remark.create({sourceUrl: 'title-of-file.md'});</script>`
-
-Now you can also delete the `<textarea>` to shorten the HTML code even more.
+When opening `index.html`, there'll be two buttons. One to load the HTML content currently in `textarea` and one to open up a local file and use that for presentations. Both buttons will dissappear when entering fullscreen.
 
 ---
 
