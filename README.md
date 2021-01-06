@@ -6,6 +6,10 @@ Also included all necessary files in the repo for easy setup after downloading /
 
 ---
 
+***Note: I'd personally recommend that you use [Display](https://github.com/BenStigsen/Display) instead, as that is about ~350x lighter (Display is ~2 KB, RemarkPortable is ~700 KB), easier to customize and under active development.***
+
+---
+
 ### Getting Started
 
 1. Download or clone this repo (you can also use the **[releases](https://github.com/BenTearzz/RemarkPortable/releases)** page).
