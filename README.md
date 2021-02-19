@@ -4,9 +4,10 @@ A simple and portable way of using **[Remark](https://github.com/gnab/remark)**,
 
 Also included all necessary files in the repo for easy setup after downloading / cloning.
 
+<!--
 ---
-
 ***Note: I'd personally recommend that you use [Display](https://github.com/BenStigsen/Display) instead, as that is about ~350x lighter (Display is ~2 KB, RemarkPortable is ~700 KB), easier to customize and under active development.***
+-->
 
 ---
 
