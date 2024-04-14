@@ -1,16 +1,16 @@
 @font-face{
   font-family: 'Droid Serif';
-  src: url('./fonts/DroidSerif.ttf');
+  src: url('../fonts/DroidSerif.ttf');
 }
 
 @font-face{
   font-family: 'Yanone Kaffeesatz';
-  src: url('./fonts/YanoneKaffeesatz.otf');
+  src: url('../fonts/YanoneKaffeesatz.otf');
 }
 
 @font-face{
   font-family: 'Ubuntu Mono';
-  src: url('./fonts/UbuntuMono.ttf');
+  src: url('../fonts/UbuntuMono.ttf');
 }
 
 body { font-family: 'Droid Serif'; }
